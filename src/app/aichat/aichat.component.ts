@@ -11,10 +11,11 @@ import { CommonModule } from '@angular/common';  // Importation du CommonModule
 export class AIchatComponent {
 
   messages = [
-    { sender: 'user', text: 'Hello, AI!', timestamp: '10:00 AM' },
-    { sender: 'ai', text: 'Hello! How can I assist you today?', timestamp: '10:01 AM' },
-    { sender: 'user', text: 'Can you tell me about Angular?', timestamp: '10:02 AM' },
-    { sender: 'ai', text: 'Sure! Angular is a platform for building web applications using TypeScript.', timestamp: '10:03 AM' }
+    { sender: 'user', text: 'What are the security protocols?', timestamp: '10:00 AM' },
+    { sender: 'ai', text: 'Security protocols include multi-factor authentication and data encryption.', timestamp: '10:01 AM' },
+    { sender: 'user', text: 'Can you explain more about data encryption?', timestamp: '10:02 AM' },
+    { sender: 'ai', text: 'Data encryption ensures that sensitive data is secure both in transit and at rest.', timestamp: '10:03 AM' }
+  
   ];
 
 
